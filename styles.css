@@ -1,0 +1,250 @@
+
+
+
+body {
+    background-color: #f9f6ee;
+}
+
+.Outside {  
+    flex-wrap: nowrap; 
+    display:flex; 
+    flex-direction: row;
+}
+
+.FirstColumn    {
+    width: 32%; 
+    overflow-y: scroll;
+    padding: 2%; 
+    margin-right: 10%;
+    margin-top: 2%;
+    height: 84vh;
+}
+
+.FirstColumn::-webkit-scrollbar    {
+    display: none;
+}
+
+.Heading {
+    font-family: "DM Sans";
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 3.7vw;
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid black;
+}
+
+.Description {
+    display: block;
+    padding-bottom: 15%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    float: left;
+    border-bottom: 1.5px solid black;
+    font-size: 1.5vw;
+
+}
+.links{ 
+    color: black;
+    text-decoration: none; 
+    font-weight: 500;
+    font-size: 2vw;
+    float: right;
+    clear: right;
+    text-wrap: wrap;
+    font-family: "DM Sans", sans-serif;
+;
+    
+}
+
+.links:hover {
+    color: #ff5001;
+}
+
+
+.SecondColumn   {
+    overflow-y: scroll;
+    height: 84vh;
+    width: 60%;
+    /* border: 1px red solid; */
+    padding: 3%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.SecondColumn::-webkit-scrollbar    {
+    display: none;
+}
+
+.HaresAndHyenas {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-content:center;
+
+
+}
+
+.Images {
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+    transition: all 0.5 ease-in-out;
+
+
+}
+
+
+.Works {
+    overflow: hidden;
+}
+
+.Subheading {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+    padding: 2%;
+    justify-content: left;
+    border-bottom: 1.5px solid black;
+}
+
+
+.TagTitle {
+    display: flex;
+    flex-wrap: wrap;
+    float: inline-start;
+    margin: 0; 
+    padding: 0;
+    min-width: fit-content;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.AllTags {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: fit-content;
+    justify-content: left;
+
+}
+
+.tags {
+    display: none;
+    border: 1px black solid;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    align-content: center;
+    max-height: fit-content;
+    align-self: center;
+    margin-right: 7px;
+    margin-left: 7px;
+    padding: 3px;
+    font-family: "DM Sans", sans-serif;
+        
+}
+
+.homeContainer:hover > .Subheading > .AllTags > .tags {
+    display:flex;
+    flex-wrap: wrap;
+    min-width: fit-content;
+    animation: FadeIn 0.5s ease-in-out;
+    opacity: 1;
+}
+
+
+.homeContainer:hover > .Works > a > .Images {
+    transform: scale(1.12);
+    transition: transform 0.3s ease-in-out;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.BackButton {
+    color: black;
+    transition: all 0.5s ease-out;
+}
+
+.BackButton:hover {
+    transform: translateX(-5px);
+    transition: transform 0.5s ease-in;  
+}
+
+.AllTags2 {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: fit-content;
+    justify-content: left;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 20px;
+    padding-top: 15px;
+
+}
+
+.tags2 {
+    display: flex;
+    max-width: fit-content;
+    border: 1px black solid;
+    border-radius: 5px 5px 5px 5px;
+    align-content: center;
+    max-height: fit-content;
+    align-self: center;
+    margin-right: 7px;
+    padding: 3px;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 7px;
+        
+}
+
+
+.nextArrow { 
+    display: flex;
+    justify-self: right;
+    font-size: 25px;
+    transition: all 0.5s ease-out;
+}
+
+.nextArrow:hover {
+    transform: translateX(5px);
+    transition: transform 0.5s ease-in;    
+}
+
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+        bottom: 20px;
+    }
+    
+    to {
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+
+
+.worksContainer {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 85vh;
+    overflow-y: scroll;
+}
+
+.column { 
+    padding-top: 20px;
+    width: 30%;
+}
+
+.worksContainer::-webkit-scrollbar { 
+    display: none;
+}
+
+
+.column::-webkit-scrollbar {
+    display: none;
+}
+
