@@ -75,14 +75,6 @@ body {
     display: none;
 }
 
-.HaresAndHyenas {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content:center;
-    align-content:center;
-
-
-}
 
 .Images {
     width: 100%;
