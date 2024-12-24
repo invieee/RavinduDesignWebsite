@@ -266,6 +266,7 @@ a {
         margin: 2% 2%;
         height: 70vh;
         overflow-y: visible;
+        margin-bottom: 5%;
     }
 }
 
@@ -297,19 +298,22 @@ a {
 
 @media screen and (max-width: 800px) {
     .Heading {
-        font-size: 7vw;
+        font-size: 10vw;
+        display: block;
     }
 }
 
 @media screen and (max-width: 800px) {
     .Description {
-        font-size: 3.5vw;
+        display: block;
+        font-size: 5vw;
     }
     
 }
 
 @media screen and (max-width: 800px) {
     .links {
-        font-size: 3.5vw;
+        display: block;
+        font-size: 4.5vw;
     }
 }
