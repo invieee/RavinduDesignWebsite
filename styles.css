@@ -264,7 +264,7 @@ a {
         width: 93%;
         padding: 2% 2%;
         margin: 2% 2%;
-        height: 70vh;
+        height: 90vh;
         overflow-y: visible;
         margin-bottom: 5%;
     }
@@ -298,7 +298,7 @@ a {
 
 @media screen and (max-width: 800px) {
     .Heading {
-        font-size: 13vw;
+        font-size: 12vw;
         display: block;
     }
 }
@@ -306,7 +306,7 @@ a {
 @media screen and (max-width: 800px) {
     .Description {
         display: block;
-        font-size: 8vw;
+        font-size: 6vw;
     }
     
 }
@@ -314,6 +314,6 @@ a {
 @media screen and (max-width: 800px) {
     .links {
         display: block;
-        font-size: 7.5vw;
+        font-size: 6.5vw;
     }
 }
