@@ -298,7 +298,7 @@ a {
 
 @media screen and (max-width: 800px) {
     .Heading {
-        font-size: 10vw;
+        font-size: 13vw;
         display: block;
     }
 }
@@ -306,7 +306,7 @@ a {
 @media screen and (max-width: 800px) {
     .Description {
         display: block;
-        font-size: 5vw;
+        font-size: 8vw;
     }
     
 }
@@ -314,6 +314,6 @@ a {
 @media screen and (max-width: 800px) {
     .links {
         display: block;
-        font-size: 4.5vw;
+        font-size: 7.5vw;
     }
 }
