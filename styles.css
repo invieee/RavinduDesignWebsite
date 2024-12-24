@@ -24,7 +24,6 @@ body {
     overflow-y: scroll;
     height: 83vh;
     width: 48%;
-    /* border: 1px red solid; */
     padding: 3%;
     margin-top: 2%;
     justify-content: center;
@@ -260,8 +259,57 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
-    .FirstColumn, .SecondColumn {
-      width: 100%; 
-      margin: 2% 2%;
+    .FirstColumn {
+        display:block;
+        width: 93%;
+        padding: 2% 2%;
+        margin: 2% 2%;
+        height: 60vh;
+        overflow-y: visible;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .SecondColumn {
+        display: block;
+        width: 93%;
+        padding: 2% 2%;
+        margin: 2% 2%;
+        justify-content: center;
+        overflow-y: visible;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .Outside {
+        display:block; 
+
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nextArrow {
+        margin-bottom: 4%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Heading {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Description {
+        font-size: 2vw;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .links {
+        font-size: 2.5vw;
     }
 }
